@@ -28,3 +28,9 @@ kbf jhjbfjkz ncjkh jczkxuz hnj jxb x
 Repository owners and administrators can merge pull requests on branches that have required pull request reviews enabled, regardless of whether the pull request has been approved. You can enforce all users, including repository owners and administrators, to obtain an approval before merging a pull request to a protected branch. For more information, see "Enabling required reviews for pull requests."
 
 If a person who requested changes isn't available to give an approved review, or if a pull request has changed significantly since it was reviewed, repository administrators or people with write access can dismiss a review. For more information, see "Dismissing a pull request review."
+To use advanced number filters:
+
+Advanced number filters allow you to manipulate numbered data in different ways. In this example, we will display only certain types of equipment based on the range of ID numbers.
+
+Select the Data tab on the Ribbon, then click the Filter command. A drop-down arrow will appear in the header cell for each column. Note: If you've already added filters to your worksheet, you can skip this step.
+Click the drop-down arrow for the column you want to filter. In our example, we'll filter column A to view only a certain range of ID numbers.
