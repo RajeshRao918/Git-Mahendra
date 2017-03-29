@@ -24,3 +24,13 @@ Like many of the most popular VCS systems available today, Git is free and open 
               Being able to trace each change made to the software and connect it to project management and bug tracking software such as JIRA, and being able to annotate each change with a message describing the purpose and intent of the change can help not only with root cause analysis and other forensics. Having the annotated history of the code at your fingertips when you are reading the code, trying to understand what it is doing and why it is so designed can enable developers to make correct and harmonious changes that are in accord with the intended long-term design of the system. This can be especially important for working effectively with legacy code and is crucial in enabling developers to estimate future work with any accuracy.
 
 Each of these articles provide an in-depth discussion of an advanced feature of Git. Instead of presenting new commands and concepts, they refine your existing Git skills by explaining what’s going on under the hood. Armed with this knowledge, you’ll be able to use familiar Git commands more effectively. More importantly, you’ll never be scared of breaking your Git repository because you’ll understand why it broke and how to fix it.
+Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+
+If the pull request does not have any merge conflicts, you can merge it on GitHub. If the pull request does have merge conflicts, or if you'd like to test the changes before merging, you can check out the pull request locally and merge it using the command line.
+
+If you decide you don't want the changes in a topic branch to be merged to the upstream branch, you can close the pull request without merging.
+
+To merge a pull request into a protected branch with required pull request reviews enabled, the pull request must meet the review policy. In this policy, a pull request:
+
+Must have one approved review
+Can't have any reviews that request changes
