@@ -1,0 +1,60 @@
+GitHub HelpVersion 
+Contact Support
+Return to GitHub
+Collaborating with issues and pull requests / Merging a pull request
+ 
+How can we help?
+
+Merging a pull request
+Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+
+If the pull request does not have any merge conflicts, you can merge it on GitHub. If the pull request does have merge conflicts, or if you'd like to test the changes before merging, you can check out the pull request locally and merge it using the command line.
+
+If you decide you don't want the changes in a topic branch to be merged to the upstream branch, you can close the pull request without merging.
+
+To merge a pull request into a protected branch with required pull request reviews enabled, the pull request must meet the review policy. In this policy, a pull request:
+
+Must have one approved review
+Can't have any reviews that request changes
+Repository owners and administrators can merge pull requests on branches that have required pull request reviews enabled, regardless of whether the pull request has been approved. You can enforce all users, including repository owners and administrators, to obtain an approval before merging a pull request to a protected branch. For more information, see "Enabling required reviews for pull requests."
+
+If a person who requested changes isn't available to give an approved review, or if a pull request has changed significantly since it was reviewed, repository administrators or people with write access can dismiss a review. For more information, see "Dismissing a pull request review."
+
+Merging a pull request on GitHub
+
+Issues and pull requests tab selectionUnder your repository name, click  Pull requests.
+
+In the "Pull Requests" list, click the pull request you'd like to merge.
+
+Depending on the merge options enabled for your repository, you can:
+
+merge-pull-request-buttonMerge all of the commits into the base branch by clicking Merge pull request. If the Merge pull request option is not shown, then click the merge drop down menu and select Create a merge commit.
+click-squash-and-merge-buttonSquash the commits into one commit by clicking the merge drop down menu, selecting Squash and merge and then clicking the Squash and merge button.
+select-rebase-and-merge-from-drop-down-menuRebase the commits individually onto the base branch by clicking the merge drop down menu, selecting Rebase and merge and then clicking the Rebase and merge button.
+
+Note: Rebase and merge will always update the committer information and create new commit SHAs. For more information, see "About pull request merges."
+Commit message fieldIf you clicked Merge pull request or Squash and merge in step 3, type a commit message, or accept the default message. Under the commit message box, click Confirm merge or Confirm squash and merge.
+
+If you clicked Rebase and merge in step 3, click Confirm rebase and merge.
+
+Optionally, delete the branch. This keeps the list of branches in your repository tidy.
+
+Pull requests are merged using the --no-ff option, except for pull requests with squashed or rebased commits, which are merged using the fast-forward option.
+
+Further reading
+
+"Reverting a pull request"
+"Merging branches" using GitHub Desktop
+
+"About pull request merges"
+
+"Addressing merge conflicts"
+
+ Contact a human
+Article versions
+GitHub.com
+GitHub Enterprise 2.9
+GitHub Enterprise 2.8
+GitHub Enterprise 2.7
+GitHub Enterprise 2.6
+The GitHub Logo © 2017 GitHub Inc. All rights reserved. Terms of ServicePrivacySecuritySupport
