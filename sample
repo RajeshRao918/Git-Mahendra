@@ -41,3 +41,9 @@ Clear both filters.
 Use an advanced text filter to view data that does not contain a certain word or phrase. If you are using the example, display data that does not contain the word saris (this should exclude all Saris brand equipment).
 Use an advanced date filter to view data from a certain time period. If you are using the example, display only the equipment that was checked out in September 2013.
 Use an advanced number filter to view numbers less than a certain amount. If you are using the example, display all items with an ID# below 3000.
+
+
+Click the drop-down arrow for the column you want to filter. In this example, we will add a filter to column D to view information by date. ...
+The Filter menu will appear.
+Check or uncheck the boxes depending on the data you want to filter, then click OK. ...
+The new filter will be applied.
