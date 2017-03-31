@@ -1,0 +1,103 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @RajeshRao918
+ Sign out
+ Watch 37
+  Star 6
+  Fork 32 githubteacher/github-for-developers-sept-2015
+ Code  Issues 135  Pull requests 16  Projects 0  Pulse  Graphs
+New issue
+How does one solve "This branch has conflicts that must be resolved" in git while merging pull request? #648
+ Closed	jns111 opened this issue on Sep 30, 2015 · 8 comments
+Assignees
+
+No one assigned
+Labels
+
+answered
+Projects
+
+None yet
+Milestone
+
+No milestone
+Notifications
+
+  Subscribe
+You’re not receiving notifications from this thread.
+8 participants
+
+@jns111 @jaw6 @shankar26 @leonardojulius @kirankakkeratd @jitendravyas @23ranjan @otisidev
+@jns111
+ Collaborator
+jns111 commented on Sep 30, 2015
+No description provided.
+ 👍 1  
+ @jns111 jns111 added the question label on Sep 30, 2015
+@jaw6
+ Collaborator
+jaw6 commented on Sep 30, 2015
+You'll need to update your branch with new commits from master, resolve those conflicts and push the updated/resolved branch to GitHub. Something like this:
+
+git checkout master
+git pull
+git checkout <branch>
+git merge master
+[ ... resolve any conflicts ... ]
+git add [files that were conflicted]
+git commit
+git push
+ 👍 24 👎 2 😄 1 🎉 3 😕 3  
+ @jaw6 jaw6 closed this on Sep 30, 2015
+ @jaw6 jaw6 added answered and removed question labels on Sep 30, 2015
+This was referenced on Feb 24, 2016
+ Closed
+Updated versions of the R packages for iPsychCNV mbertalan/iPsychCNV#15
+ Merged
+Estoy añadiendo la tarea 1 como notebook. lbenet/2016-2_TSFisicaComputacional#35
+@shankar26
+ 
+shankar26 commented on Apr 18, 2016
+👍 , it helped me
+@leonardojulius
+ 
+leonardojulius commented on Jul 15, 2016
+@jaw6 thanks it helps me 👍
+@kirankakkeratd
+ 
+kirankakkeratd commented on Oct 9, 2016
+@jaw6 perfect solution 💯 . Thanks 👍
+@jitendravyas
+ 
+jitendravyas commented on Oct 11, 2016
+It helped me. thanks
+@23ranjan
+ 
+23ranjan commented on Oct 20, 2016
+Perfect. Thanks.
+@jitendravyas
+ 
+jitendravyas commented on Nov 19, 2016
+i get this error
+
+This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/pre-push.
+@otisidev
+ 
+otisidev commented on Nov 27, 2016
+every helpful, thank you!
+@RajeshRao918
+  
+            
+ 
+Write  Preview
+
+Leave a comment
+Attach files by dragging & dropping,  Choose Files selecting them, or pasting from the clipboard.
+ Styling with Markdown is supported
+Comment
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
